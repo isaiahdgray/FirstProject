@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body><font size=5>
+<!--use GET, not POST -->
+
+<form method="GET">
+	<div id="div1"><br><br><br><br><br>First Name: <input type="text" name="firstname"><br>
+	Last Name: <input type="text" name="lastname"><br>
+	E-Mail: <input type="email" name="email" required><br>
+	Password: <input type="password" name="password" min="6" required><br>
+	Birthday: <input type="date" name="birthday"><br>
+	Gender:
+	Male <input type="radio" name="gender" value="Male">
+	Female <input type="radio" name="gender" value="Female"><br>
+	Want pets? 
+	Yes <input type="radio" name="pets" value="Yes">
+	No <input type="radio" name="pets" value="No"><br>
+	If yes, types? 
+	Cats <input type="checkbox" name="cats" value="Cats">
+	Dogs <input type="checkbox" name="dogs" value="Dogs">
+	Other <input type="checkbox" name="other" value="Other"><br>
+	Want children?
+	Yes<input type="radio" name="children" value="Yes">
+	No<input type="radio" name="children" value="No"> <br>
+	If yes, how many? 
+	1-3 <input type="radio" name="quantity" value="1-3">
+	4-6 <input type="radio" name="quantity" value="4-6">
+	6+ <input type="radio" name="quantity" value="6+"><br>
+	Who is the sexier spouse?
+	<select name="sexier">
+		<option value="Isaiah" name="isaiah">Isaiah</option>
+			<option value="Aliyeh" name="aliyeh">Aliyeh</option>
+			<option value="It's equal" name="itsequal">It's equal</option></select><br></div>
+	<input type="submit" value="I do!" name="">
+	<input type="reset" value="I do not!" name="">
+	<a href="index.html" style="color: black;"> Homepage</a>
+</form>
+</body>
+</html>
